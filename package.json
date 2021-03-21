@@ -28,6 +28,7 @@
     "@storybook/react": "6.2.0-alpha.30",
     "assert": "^2.0.0",
     "babel-loader": "^8.2.2",
+    "chromatic": "^5.7.0",
     "prettier": "2.2.1"
   },
   "keywords": [
@@ -43,7 +44,8 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "chromatic --project-token 87bc3855c263"
   },
   "repository": {
     "type": "git",
